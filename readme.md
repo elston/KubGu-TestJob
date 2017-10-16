@@ -59,3 +59,51 @@ Description
 Дополнительно библиотека OpenCV
 
 Поиск обьекта по шаблону (части изображения). Ваша программа должна будет найти на фото объект изображенный на другом фото. Например вам будет дано Яблоко которое надо найти в натюрморте картины.
+
+
+Getting Started with Docker and Docker Compose for Local Development
+--------------------------------------------------------------------
+
+### Install Docker
+
+https://docs.docker.com/installation/
+
+### Install Docker Compose
+
+http://docs.docker.com/compose/install/
+
+### Install the app's
+
+In the project ./book (where the `Makefile` file is located), run:
+
+#### 1. Build
+
+```
+make build
+```
+
+#### 2. bootstrap
+
+```
+make bootstrap
+```
+
+#### 3. run shell in contaner
+
+```
+make shell
+```
+
+#### 4. work on in contaner
+
+
+```
+workon main
+ipython
+>>> import cv2
+>>> print(cv2.__version__)
+3.3.0
+
+```
+
+.... It's work !!!

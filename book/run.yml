@@ -1,0 +1,24 @@
+version: '3'
+
+# ---------------------
+networks:
+  netmain:
+    driver: bridge
+
+# ---------------------     
+services:
+
+  main:
+    image: ${PROJECT}_main
+    tty: true
+    networks:
+      - netmain
+    environment:
+      - PROJECT=main
+      - WORKON_HOME=/main/.env
+      - PYTHONPATH=/main
+
+    volumes:
+      - ../image/main/src:/main
+    # .............................................        
+    command: /bin/bash

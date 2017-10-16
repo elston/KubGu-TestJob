@@ -1,0 +1,18 @@
+version: '3'
+
+# ---------------------
+services:
+
+  main:
+    image: ${PROJECT}_main
+    network_mode: "host" 
+    environment:
+      - PROJECT=main
+      - WORKON_HOME=/main/.env
+    volumes:
+      - ../image/main/src:/main
+      - ../image/main/bootstrap.sh:/usr/local/bin/bootstrap.sh
+      # ...
+      - ../image/main/requirements/${REQUIREMENTS}.txt:/tmp/requirements.txt
+    # ..................................      
+    command: /usr/local/bin/bootstrap.sh
