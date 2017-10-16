@@ -1,4 +1,4 @@
-Test Job for robtics laboratory of KubGu
+Computer vision test job for robotics laboratory of KubGu
 ========================================
 
 Technology
