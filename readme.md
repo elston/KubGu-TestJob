@@ -42,8 +42,6 @@ Description
 Выход: 5 3
 ```
 
-[Решение](https://github.com/elston/KubGu-TestJob/blob/master/image/main/src/tz1/app.py)
-
 ### Задача 2:
 
 ЯП: приоритетно С++, можно Python
