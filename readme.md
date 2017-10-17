@@ -11,7 +11,7 @@ Technology
 Description
 ----------------
 
-### Задача 1
+### Задача 1 ([Решение](https://github.com/elston/KubGu-TestJob/blob/master/image/main/src/tz1/app.py))
 
 ЯП: С++ или Python на выбор, консольная утилита, которая принимает на вход номер комнаты, и дает ответ. 
 
