@@ -33,6 +33,8 @@ Description
 
 Выходные данные: Два целых числа — номер этажа и порядковый номер слева на этаже.
 
+[Решение](https://github.com/elston/KubGu-TestJob/blob/master/image/main/src/tz1/app.py)
+
 Пример:
 
 ```
