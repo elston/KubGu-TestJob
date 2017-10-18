@@ -42,7 +42,7 @@ Description
 Выход: 5 3
 ```
 
-### Задача 2:
+### Задача 2 ([Решение](https://github.com/elston/KubGu-TestJob/blob/master/image/main/src/tz2/app_white.py)):
 
 ЯП: приоритетно С++, можно Python
 
