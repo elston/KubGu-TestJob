@@ -14,11 +14,13 @@ services:
     networks:
       - netmain
     environment:
+      - DISPLAY=unix$DISPLAY
       - PROJECT=main
       - WORKON_HOME=/main/.env
       - PYTHONPATH=/main
 
     volumes:
       - ../image/main/src:/main
+      - ../data:/data      
     # .............................................        
     command: /bin/bash
